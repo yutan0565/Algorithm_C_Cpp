@@ -10,6 +10,4 @@ int main(void){
             printf("%d ", a);
         }
     }
-
-
 }
