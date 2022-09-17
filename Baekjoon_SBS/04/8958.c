@@ -9,7 +9,6 @@ int main(void){
     int count, sum;
     for(i=0; i < n ; i++){
         scanf("%s",&s);
-        printf("%s\n",s);
         len = strlen(s);
         count = 0;
         sum = 0;
@@ -22,9 +21,5 @@ int main(void){
             }
         }
         printf("%d\n",sum);
-        
     }
-
-
-
 }
