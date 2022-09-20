@@ -8,7 +8,7 @@ int check(int n){
         int i, count = 99, a,b,c;
         for(i=100;i<=n;i++){
             a = i/100;
-            b = i/10;
+            b = i/10%10;
             c = i%10;
             if((a-b) == (b-c)){
                 count++;
