@@ -10,8 +10,4 @@ int main(void){
         result += (int)number[i]- 48;
     }
     printf("%d", result);
-
-
-
-
 }
