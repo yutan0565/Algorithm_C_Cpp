@@ -6,7 +6,6 @@ int main(void) {
     scanf("%s", input); 
     int count = strlen(input); 
     int len = strlen(input); 
-    printf("%d\n",count);
     int i; 
     for(i=0; i<len; i++) { 
         if(input[i] == '=') { 
