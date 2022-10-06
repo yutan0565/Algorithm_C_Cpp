@@ -3,7 +3,6 @@
 
 int main(){
     int t, h, w, n;
-    int front, back;
     scanf("%d\n",&t);
 
     for(int i = 0 ; i < t ; i++){
