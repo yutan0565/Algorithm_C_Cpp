@@ -9,8 +9,6 @@ int isprime(int number){
     return 1;
 }
 
-
-
 int main(){
     int m, n ;
     scanf("%d %d", &m, &n);
