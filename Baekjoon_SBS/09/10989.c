@@ -3,7 +3,7 @@
 int main(){
     int n, number;
     scanf("%d", &n);
-    int n_list[n+1] = {0,};
+    int n_list[10001] = {0,};
     for(int i = 0 ; i < n ; i++){
         scanf("%d", &number);
         n_list[number]++;
