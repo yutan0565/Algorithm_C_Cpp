@@ -2,8 +2,7 @@
 
 int main() {
     int paper[100][100] = { 0, }; 
-    int n, w, h;
-    int cnt = 0;
+    int n, w, h, count = 0;
     scanf("%d", &n);
 
     for (int i = 0; i < n; i++) {  
@@ -17,10 +16,10 @@ int main() {
 
     for (int i = 0; i < 100; i++) { 
         for (int j = 0; j < 100; j++) {  
-            if (paper[i][j] == 1) cnt++;
+            if (paper[i][j] == 1) count++;
         }
     }
 
-    printf("%d", cnt);
+    printf("%d", count);
     return 0;
 }
