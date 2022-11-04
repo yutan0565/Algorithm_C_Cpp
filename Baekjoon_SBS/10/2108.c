@@ -21,8 +21,10 @@ int middle(int list[], int n){
 }
 
 int frequency(int list[], int n){
-    int result, max = 0, count = 0, index;
-    int count_list[8001] = {0};
+    if(n == 1) return list[0];
+
+    int result= 0 , max = -10, count = 0, index;
+    int count_list[8001] = {0,};
     for (int i = 0; i < n; i++){
         index = list[i] + 4000;
         count_list[index]++;
@@ -53,7 +55,7 @@ int n_range(int list[], int n){
     return result;
 }
 
-void ft_swap(int list[], int i, int j){
+void swap(int list[], int i, int j){
     int temp;
     temp = list[i];
     list[i] = list[j];
@@ -67,7 +69,7 @@ void sort(int list[], int n){
         j = i + 1;
         while (j < n){
             if (list[i] > list[j])
-                ft_swap(list, i, j);
+                swap(list, i, j);
             j++;
         }
         i++;
