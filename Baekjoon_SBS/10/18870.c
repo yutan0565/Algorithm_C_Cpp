@@ -37,6 +37,7 @@ int main() {
 		}
 		result[n_list[i].index] = count;
 	}
+    
 	for (i = 0; i < n; i++) {
 		printf("%d ", result[i]);
 	}
